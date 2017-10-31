@@ -104,10 +104,11 @@
         line-height: 1.5;
     }
     .ports {
-        position: relative;
+        position: static;
         overflow: auto;
         float: left;
         width: 310px;
+
     }
 
     .portfolio img {
@@ -241,6 +242,7 @@
         }
         .main {
             width: 667px;
+            margin-top: 5px;
         }
         .nelements {
             width: 667px;
@@ -256,29 +258,24 @@
         }
     @media screen and (max-width: 640px) {
         .main {
-            width: 100%;
-            min-width: 333px;
-            margin: 0 auto;
-            
-        }
+            width: 355px;
+
+            position: static;
+       }
         .container {
             width: 313px;
             float: left;
-            margin: 0 auto 30px auto;
         }
         .ports { 
-            position: none;
+            position: static;
         }
         .navbar {
             height: 216px;
         }
         .sidebar {
             width: 313px;
-            margin-left: auto;
-            margin-right: auto;
-            min-width: 313px;
-            float: center;
             height: 124px;
+            float: left;
         }
         .nelements {
             width: 100%;
@@ -302,9 +299,6 @@
         ul {
             width: 100%;
             text-align: center;
-        }
-        .main {
-            margin-top: 5px;
         }
         form {
             width: 313px;
