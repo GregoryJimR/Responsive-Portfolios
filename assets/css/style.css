@@ -1,0 +1,318 @@
+    html {
+        height: 100%;
+    }
+
+    body {
+        height: 100%;
+        width: 100%;
+        background: url('../images/purty_wood_@2X.png');
+        display: flex;
+        flex-direction: column;
+    }
+
+    h2,
+    h3,
+    h4 {
+        font-family: 'Georgia', Times, Times New Roman, serif;
+    }
+
+    li,
+    label,
+    p {
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        color: #777;
+    }
+
+    .navbar {
+        height: 108px;
+        width: 100%;
+        background: #fff;
+        margin: 0 auto 30px auto;
+        border-bottom: 2px outset #ccc;
+    }
+
+    .nav a {
+        padding: 8px;
+    }
+
+    .nelements {
+        width: 960px;
+        height: 108px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .logo {
+        float: left;
+        height: 64px;
+        width: 200px;
+        padding: 20px;
+        background: #4aaaa5;
+        text-align: center;
+        font-size: 24px;
+        color: #fff;
+        border: 2px outset #ccc;
+        margin: 0;
+        line-height: 60px;
+    }
+
+    .nav {
+        float: right;
+        height: 64px;
+        margin: 0;
+        line-height: 110px;
+        font-size: 18px;
+    }
+
+    .nav li {
+        list-style: none;
+        display: inline;
+        border-left: 1px solid #ccc;
+        padding: 0 20px;
+        margin: 0;
+    }
+
+    #leftli {
+        border-left: 0px;
+    }
+
+    .main {
+        width: 960px;
+        margin: 0 auto;
+        flex: 1 0 auto;
+    }
+
+    .container {
+        border: 2px outset #ccc;
+        background: #fff;
+        float: left;
+        width: 626px;
+        height: 500px;
+        padding: 15px;
+        font-size: 24px;
+        height: auto;
+        margin-bottom: 5%;
+    }
+
+    .aimage {
+        float: left;
+        margin-right: 20px;
+    }
+
+    .container p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .ports {
+        position: relative;
+        overflow: auto;
+        float: left;
+        width: 310px;
+    }
+
+    .portfolio img {
+        margin: 5px 15px;
+        position: relative;
+        z-index: 1;
+    }
+
+    h4 {
+        font-size: 22px;
+        width: 280px;
+        height: 45px;
+        background: #4aaaa5;
+        text-align: center;
+        color: #fff;
+        line-height: 45px;
+        font-weight: lighter;
+        margin: 5px 15px -50px 15px;
+        position: relative;
+        z-index: 2;
+        top: -70px;
+    }
+
+    form {
+        width: 626px;
+    }
+
+    label {
+        margin: 10px 15px;
+        width: 596px;
+        padding: 0;
+        display: inline-block;
+    }
+
+    input {
+        width: 95%;
+        padding: 12px 20px;
+        margin: 0 15px;
+        box-sizing: border-box;
+        font-size: 15px;
+    }
+
+    textarea {
+        width: 94%;
+        margin: 0 15px 0 15px;
+        font-size: 15px;
+        padding-top: 15px;
+    }
+
+    button {
+        margin-left: 15px;
+        margin-top: 15px;
+        background: #4aaaa5;
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .sidebar {
+        border: 2px outset #ccc;
+        float: right;
+        background: #fff;
+        width: 235px;
+        padding: 15px;
+        margin: 0;
+    }
+
+    .tealheading {
+        color: #4aaaa5;
+        font-size: 24px;
+        margin: 0;
+        padding: 15px 0;
+        border-bottom: 2px solid lightgray;
+        margin-bottom: 15px;
+    }
+
+    .connect {
+        width: 50px;
+        height: 50px;
+        margin: 0 7px;
+    }
+
+    .footer {
+        clear: both;
+        border-top: 8px outset #4aaaa5;
+        text-align: center;
+        background: #ccc;
+        height: 108px;
+        line-height: 100px;
+        width: 100%;
+    }
+
+    .navbar a:hover {
+        background: teal;
+    }
+
+    .navbar a:active {
+        color: black;
+    }
+    @media screen and (max-width: 980px) {
+        .container {
+            width: 313px;
+        }
+        .main {
+            width: 667px;
+        }
+        .nelements {
+            width: 667px;
+        }
+        .nav {
+            float: right;
+        }
+        form {
+            width: 313px;
+        }
+        input {
+            width: 90%;
+        }
+        textarea {
+            width: 88%;
+        }
+        
+    }
+    @media screen and (max-width: 768px) {
+        .sidebar {
+            float: left;
+            margin-bottom: 30px;
+            width: 626px;
+    }
+        .container {
+            width: 626px;
+        }
+        .main {
+            width: 667px;
+        }
+        .nelements {
+            width: 667px;
+        }
+        form {
+            width: 626px;
+        }
+        input {
+            width: 95%;
+        }
+        textarea {
+            width: 94%;
+        }
+    @media screen and (max-width: 640px) {
+        .main {
+            width: 100%;
+            min-width: 333px;
+            margin: 0 auto;
+            
+        }
+        .container {
+            width: 313px;
+            float: left;
+            margin: 0 auto 30px auto;
+        }
+        .ports { 
+            position: none;
+        }
+        .navbar {
+            height: 216px;
+        }
+        .sidebar {
+            width: 313px;
+            margin-left: auto;
+            margin-right: auto;
+            min-width: 313px;
+            float: center;
+            height: 124px;
+        }
+        .nelements {
+            width: 100%;
+            height: 216px;
+        }
+        .logo {
+            width: 100%;
+            float: none;
+            padding: 20px 0;
+            margin: 0;
+        }
+        .nav {
+            clear: both;
+            width: 100%;
+            height: 108px;
+            margin-bottom: 0 auto 0px auto;
+            background: #fff;
+            float: none;
+            min-width: 360px;
+        }
+        ul {
+            width: 100%;
+            text-align: center;
+        }
+        .main {
+            margin-top: 5px;
+        }
+        form {
+            width: 313px;
+        }
+        input {
+            width: 90%;
+        }
+        textarea {
+            width: 88%;
+        }
+    }
